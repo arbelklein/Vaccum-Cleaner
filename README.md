@@ -4,7 +4,8 @@
 This repository contains a university course exercise that involves simulating an automatic vacuum cleaner. The exercise includes implementing two separate algorithms and a simulator. The algorithms will be compiled into shared object files (.so), and the simulator will generate an executable to run the simulation.
 
 
-## Installation
+## Usage
+### Building the Project
 To build the project, Ensure the script has execution permissions:
 ```
 chmod +x ./build_all.sh
@@ -40,7 +41,6 @@ make
 cd ../../
 ```
 
-## Usage
 ### Simulator
 To execute the simulator, run:
 ```
