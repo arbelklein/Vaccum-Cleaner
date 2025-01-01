@@ -7,15 +7,15 @@ This repository contains a university course exercise that involves simulating a
 ## Usage
 ### Building the Project
 To build the project, Ensure the script has execution permissions:
-```
+```sh
 chmod +x ./build_all.sh
 ```
 Run the following script:
-```
+```sh
 ./build_all.sh
 ```
 Alternatively, you can build each project manually:
-```
+```sh
 # Build Algorithm A
 cd ./206510398_208278945_A
 mkdir build
@@ -43,7 +43,7 @@ cd ../../
 
 ### Simulator
 To execute the simulator, run:
-```
+```sh
 ./<path to Simulator>/build/myrobot
 ```
 You can execute the program from any directory. The output files will be stored in the current working directory (CWD).
@@ -57,13 +57,13 @@ You can execute the program from any directory. The output files will be stored 
 
 ### Simulation
 To run a specific simulation with a house and output file:
-```
+```sh
 python3 ./<path to Simulation>/Simulation.py ./<houseName>.house ./<outputName>.txt
 ```
 
 ## Output File
 The output file format is a text file named <HouseName>-<AlgorithmName>.txt with the following structure:
-```
+```sh
 NumSteps = <NUMBER>
 DirtLeft = <NUMBER>
 Status = <FINISHED/WORKING/DEAD>
